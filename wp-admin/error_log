@@ -1,0 +1,7 @@
+[14-May-2018 20:52:00 UTC] Error Unknown column 'np_' in 'field list' de la base de datos de WordPress para la consulta SELECT np_
+[15-May-2018 16:02:40 UTC] Error Unknown column 'add_new_page' in 'where clause' de la base de datos de WordPress para la consulta 
+			SELECT *
+			FROM np_posts
+			WHERE 1 AND ID IN(add_new_page)
+			AND post_status <> 'trash'
+		 realizada por require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, learn_press_setup_pages
